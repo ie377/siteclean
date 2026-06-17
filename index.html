@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Экстренная очистка сайтов от вирусов за 24 часа. Снимаем блокировки поисковиков, удаляем вредоносный код. Работаем по договору с гарантией 90 дней.">
+  <title>SiteClean — Очистка сайтов от вирусов</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2L4 9v6c0 7.2 5.4 13.9 12 15 6.6-1.1 12-7.8 12-15V9L16 2z' fill='%2310B981'/%3E%3Ctext x='16' y='20' text-anchor='middle' font-size='14' font-weight='bold' fill='white' font-family='sans-serif'%3ES%3C/text%3E%3C/svg%3E">
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=109823577', 'ym');
+
+    ym(109823577, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/109823577" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">
+        <svg class="header__logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 3L4 11v8c0 8.2 6.2 15.8 14 17 7.8-1.2 14-8.8 14-17v-8L18 3z" fill="#10B981"/>
+          <text x="18" y="22" text-anchor="middle" font-size="16" font-weight="bold" fill="white" font-family="sans-serif">S</text>
+        </svg>
+        <span class="header__logo-text">SiteClean</span>
+      </a>
+
+      <button class="header__burger" aria-label="Открыть меню">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="index.html" class="header__menu-link header__menu-link--active">Главная</a></li>
+          <li class="header__menu-item"><a href="static-hardening.html" class="header__menu-link">Статическая броня</a></li>
+          <li class="header__menu-item"><a href="services.html" class="header__menu-link">Услуги</a></li>
+          <li class="header__menu-item"><a href="business.html" class="header__menu-link">Для бизнеса</a></li>
+          <li class="header__menu-item"><a href="cases.html" class="header__menu-link">Кейсы</a></li>
+          <li class="header__menu-item"><a href="prices.html" class="header__menu-link">Цены</a></li>
+          <li class="header__menu-item"><a href="blog.html" class="header__menu-link">Блог</a></li>
+          <li class="header__menu-item"><a href="contacts.html" class="header__menu-link">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__overlay"></div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__content fade-in-up">
+          <div class="hero__trust">
+            <span class="hero__trust-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              Работаем с юрлицами
+            </span>
+            <span class="hero__trust-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Гарантия 90 дней
+            </span>
+            <span class="hero__trust-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              NDA
+            </span>
+          </div>
+
+          <h1 class="hero__title">Экстренная очистка сайтов <span class="hero__title-accent">от вирусов за 24 часа</span></h1>
+          <p class="hero__subtitle">Снимем блокировки поисковиков, удалим вредоносный код и закроем уязвимости. Работаем по договору с гарантией 90 дней.</p>
+
+          <div class="hero__actions">
+            <a href="#form" class="btn btn--primary btn--large">Получить бесплатную диагностику</a>
+            <a href="prices.html" class="btn btn--outline btn--large">Посмотреть цены</a>
+          </div>
+          <p class="hero__note">Бесплатная диагностика за 15 минут &bull; От 8 000 ₽ за очистку</p>
+        </div>
+
+        <div class="hero__stats fade-in-up">
+          <div class="hero__stat">
+            <span class="hero__stat-value">500+</span>
+            <span class="hero__stat-label">Очищенных сайтов</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-value">24ч</span>
+            <span class="hero__stat-label">Среднее время</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-value">97%</span>
+            <span class="hero__stat-label">Повторных обращений нет</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video -->
+ <!-- Видео-секция -->
+<section class="video-section">
+  <div class="video-container">
+    <video id="promoVideo" class="promo-video" preload="metadata" playsinline>
+      <source src="siteclean_vid.mp4" type="video/mp4">
+      Ваш браузер не поддерживает видео.
+    </video>
+    <button class="play-btn" id="playBtn" aria-label="Воспроизвести видео">
+      <svg viewBox="0 0 68 68" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="34" cy="34" r="34" fill="rgba(0,0,0,0.6)"/>
+        <polygon points="28,20 28,48 50,34" fill="#ffffff"/>
+      </svg>
+    </button>
+  </div>
+</section>
+
+<style>
+  .video-section {
+    width: 100%;
+    position: relative;
+    background: #000;
+  }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 400px;
+    max-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .promo-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    z-index: 2;
+  }
+
+  .play-btn:hover {
+    transform: translate(-50%, -50%) scale(1.15);
+  }
+
+  .play-btn.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .play-btn svg {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.4));
+  }
+
+  /* Адаптив для мобильных */
+  @media (max-width: 768px) {
+    .video-container {
+      height: 56.25vw; /* Соотношение 16:9 */
+      min-height: 220px;
+    }
+    .play-btn {
+      width: 60px;
+      height: 60px;
+    }
+  }
+</style>
+
+<script>
+  (function() {
+    const video = document.getElementById('promoVideo');
+    const playBtn = document.getElementById('playBtn');
+
+    if (!video || !playBtn) return;
+
+    playBtn.addEventListener('click', function() {
+      video.play().then(function() {
+        playBtn.classList.add('hidden');
+        video.setAttribute('controls', 'controls');
+      }).catch(function(err) {
+        console.warn('Не удалось воспроизвести видео:', err);
+      });
+    });
+
+    video.addEventListener('pause', function() {
+      playBtn.classList.remove('hidden');
+    });
+
+    video.addEventListener('play', function() {
+      playBtn.classList.add('hidden');
+    });
+
+    video.addEventListener('ended', function() {
+      playBtn.classList.remove('hidden');
+      video.removeAttribute('controls');
+    });
+  })();
+</script>
+    <!-- Problems -->
+    <section class="section section--alt" id="problems">
+      <div class="container">
+        <div class="section__intro fade-in-up">
+          <h2 class="section-title">Узнаёте эти проблемы?</h2>
+          <p class="section-subtitle">Если ваш сайт ведёт себя подозрительно — не ждите, пока поисковики навсегда заблокируют его</p>
+        </div>
+        <div class="problems__grid stagger-children">
+          <div class="problem-card">
+            <svg class="problem-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+            <h3 class="problem-card__title">Сайт не открывается?</h3>
+            <p class="problem-card__text">Хостинг заблокировал сайт из-за вредоносной активности, или вирус перенаправляет всех посетителей на сторонние ресурсы.</p>
+          </div>
+          <div class="problem-card">
+            <svg class="problem-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            <h3 class="problem-card__title">Google помечает как опасный?</h3>
+            <p class="problem-card__text">Браузеры показывают страшное предупреждение, клиенты уходят, а поисковики опускают сайт в выдаче.</p>
+          </div>
+          <div class="problem-card">
+            <svg class="problem-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            <h3 class="problem-card__title">Сайт тормозит и перенаправляет?</h3>
+            <p class="problem-card__text">Майнеры грузят процессор, а редиректы ведут на фишинговые страницы. Вы теряете позиции и клиентов.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solution -->
+    <section class="section" id="solution">
+      <div class="container">
+        <div class="section__intro fade-in-up">
+          <h2 class="section-title">Как мы решаем проблему</h2>
+          <p class="section-subtitle">Не просто удаляем вирусы, а делаем сайт «чистым» во всех смыслах</p>
+        </div>
+        <div class="solution__grid stagger-children">
+          <div class="solution-card">
+            <svg class="solution-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <h3 class="solution-card__title">Удаляем 100% вредоносного кода</h3>
+            <p class="solution-card__text">Полное сканирование всех файлов и базы данных. Удаляем бэкдоры, майнеры, спам-ссылки и фишинговые страницы.</p>
+          </div>
+          <div class="solution-card">
+            <svg class="solution-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <h3 class="solution-card__title">Закрываем уязвимости</h3>
+            <p class="solution-card__text">Устраняем причины взлома: обновляем CMS, плагины, закрываем дыры в безопасности, меняем пароли.</p>
+          </div>
+          <div class="solution-card">
+            <svg class="solution-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+            <h3 class="solution-card__title">Возвращаем сайт в поиск</h3>
+            <p class="solution-card__text">Помогаем снять блокировки Google Safe Browsing и Яндекс. Подаём заявки на перепроверку и восстанавливаем позиции.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps -->
+    <section class="section section--alt" id="steps">
+      <div class="container">
+        <div class="section__intro fade-in-up">
+          <h2 class="section-title">Как мы работаем</h2>
+          <p class="section-subtitle">Прозрачный процесс от диагностики до гарантии</p>
+        </div>
+        <div class="steps__grid stagger-children">
+          <div class="step-card">
+            <h3 class="step-card__title">Бесплатная диагностика</h3>
+            <p class="step-card__text">Оставляете заявку — мы проверяем сайт, находим проблему и называем точную стоимость за 15 минут.</p>
+          </div>
+          <div class="step-card">
+            <h3 class="step-card__title">Договор и оплата</h3>
+            <p class="step-card__text">Заключаем договор, выставляем счёт. Работаем с физлицами и юрлицами (НДС, закрывающие документы).</p>
+          </div>
+          <div class="step-card">
+            <h3 class="step-card__title">Очистка и защита</h3>
+            <p class="step-card__text">Удаляем вирусы, чистим базу данных, обновляем CMS и закрываем все уязвимости. Среднее время — 24 часа.</p>
+          </div>
+          <div class="step-card">
+            <h3 class="step-card__title">Отчёт и гарантия</h3>
+            <p class="step-card__text">Предоставляем подробный отчёт о работе. Гарантия 90 дней — если вирус вернётся, удалим бесплатно.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CMS -->
+    <section class="section" id="cms">
+      <div class="container">
+        <div class="section__intro fade-in-up">
+          <h2 class="section-title">Работаем с любыми CMS</h2>
+          <p class="section-subtitle">Опыт очистки всех популярных систем управления сайтами</p>
+        </div>
+        <div class="cms__grid stagger-children">
+          <div class="cms-card">
+            <svg class="cms-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z"/></svg>
+            WordPress
+          </div>
+          <div class="cms-card">
+            <svg class="cms-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/></svg>
+            1С-Битрикс
+          </div>
+          <div class="cms-card">
+            <svg class="cms-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            OpenCart
+          </div>
+          <div class="cms-card">
+            <svg class="cms-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5"/></svg>
+            Joomla
+          </div>
+          <div class="cms-card">
+            <svg class="cms-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            MODX
+          </div>
+          <div class="cms-card">
+            <svg class="cms-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            Drupal
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cases Preview -->
+    <section class="section section--alt" id="cases">
+      <div class="container">
+        <div class="section__intro fade-in-up">
+          <h2 class="section-title">Последние кейсы</h2>
+          <p class="section-subtitle">Реальные примеры очистки сайтов от вирусов</p>
+        </div>
+        <div class="cases__grid stagger-children">
+          <div class="case-card">
+            <div class="case-card__preview">
+              <span class="case-card__badge">WordPress</span>
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#94A3B8"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            </div>
+            <div class="case-card__body">
+              <h3 class="case-card__title">Очистка интернет-магазина от японского вируса</h3>
+              <p class="case-card__text">Сайт перенаправлял посетителей на фишинговые страницы. Полная очистка + закрытие уязвимости за 2 дня.</p>
+              <div class="case-card__meta">
+                <span>2 дня</span>
+                <span>15 000 ₽</span>
+              </div>
+            </div>
+          </div>
+          <div class="case-card">
+            <div class="case-card__preview">
+              <span class="case-card__badge">1С-Битрикс</span>
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#94A3B8"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            </div>
+            <div class="case-card__body">
+              <h3 class="case-card__title">Снятие блокировки Google с корпоративного сайта</h3>
+              <p class="case-card__text">Google Safe Browsing пометил сайт как опасный. Удалили вредоносный код, подали заявку на пересмотр.</p>
+              <div class="case-card__meta">
+                <span>1 день</span>
+                <span>25 000 ₽</span>
+              </div>
+            </div>
+          </div>
+          <div class="case-card">
+            <div class="case-card__preview">
+              <span class="case-card__badge">OpenCart</span>
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#94A3B8"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            </div>
+            <div class="case-card__body">
+              <h3 class="case-card__title">Восстановление сайта после взлома через уязвимый плагин</h3>
+              <p class="case-card__text">Майнер в админке нагружал сервер на 95%. Очистили, обновили плагины, настроили защиту.</p>
+              <div class="case-card__meta">
+                <span>3 дня</span>
+                <span>18 000 ₽</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section__intro fade-in-up">
+          <h2 class="section-title">Отзывы клиентов</h2>
+          <p class="section-subtitle">Нам доверяют владельцы сайтов по всей России</p>
+        </div>
+        <div class="reviews__grid stagger-children">
+          <div class="review-card">
+            <p class="review-card__text">Сайт заблокировал хостинг из-за вируса. Ребята оперативно среагировали, за вечер всё почистили, закрыли дыры. Уже неделю всё работает отлично.</p>
+            <p class="review-card__author">Алексей К.</p>
+            <p class="review-card__site">Интернет-магазин электроники</p>
+          </div>
+          <div class="review-card">
+            <p class="review-card__text">Долго мучились с редиректами на сторонние сайты. Обратились в SiteClean — на следующий день проблема решена. Отдельное спасибо за отчёт о работе.</p>
+            <p class="review-card__author">Екатерина С.</p>
+            <p class="review-card__site">Корпоративный сайт</p>
+          </div>
+          <div class="review-card">
+            <p class="review-card__text">Очень переживали за конфиденциальность, но подписали NDA и спокойно отдали доступы. Всё чисто, сайт снова в топе Google. Рекомендую!</p>
+            <p class="review-card__author">Дмитрий В.</p>
+            <p class="review-card__site">SaaS-сервис</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prices Preview -->
+    <section class="section section--alt" id="prices">
+      <div class="container">
+        <div class="section__intro fade-in-up">
+          <h2 class="section-title">Цены на очистку</h2>
+          <p class="section-subtitle">Прозрачные тарифы без скрытых платежей. Точную стоимость назовём после диагностики.</p>
+        </div>
+        <div class="prices__grid stagger-children">
+          <div class="price-card">
+            <h3 class="price-card__name">Базовый</h3>
+            <div class="price-card__price">от 8 000 ₽</div>
+            <div class="price-card__period">Разовая очистка</div>
+            <ul class="price-card__features">
+              <li class="price-card__feature">
+                <svg class="price-card__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Диагностика сайта
+              </li>
+              <li class="price-card__feature">
+                <svg class="price-card__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Удаление вирусов
+              </li>
+              <li class="price-card__feature">
+                <svg class="price-card__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Очистка базы данных
+              </li>
+              <li class="price-card__feature">
+                <svg class="price-card__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Гарантия 30 дней
+              </li>
+            </ul>
+            <a href="#form" class="btn btn--primary" style="width:100%">Заказать</a>
+          </div>
+          <div class="price-card price-card--featured">
+            <span class="price-card__badge">Популярный</span>
+            <h3 class="price-card__name">Стандарт</h3>
+            <div class="price-card__price">от 15 000 ₽</div>
+            <div class="price-card__period">Разовая очистка</div>
+            <ul class="price-card__features">
+              <li class="price-card__feature">
+                <svg class="price-card__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Всё из тарифа «Базовый»
+              </li>
+              <li class="price-card__feature">
+                <svg class="price-card__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Закрытие уязвимостей
+              </li>
+              <li class="price-card__feature">
+                <svg class="price-card__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Обновление CMS и плагинов
+              </li>
+              <li class="price-card__feature">
+                <svg class="price-card__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Гарантия 90 дней
+              </li>
+            </ul>
+            <a href="#form" class="btn btn--primary" style="width:100%">Заказать</a>
+          </div>
+          <div class="price-card">
+            <h3 class="price-card__name">Премиум</h3>
+            <div class="price-card__price">от 25 000 ₽</div>
+            <div class="price-card__period">Разовая очистка</div>
+            <ul class="price-card__features">
+              <li class="price-card__feature">
+                <svg class="price-card__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Всё из тарифа «Стандарт»
+              </li>
+              <li class="price-card__feature">
+                <svg class="price-card__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Снятие блокировок Google/Яндекс
+              </li>
+              <li class="price-card__feature">
+                <svg class="price-card__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Установка защиты (WAF)
+              </li>
+              <li class="price-card__feature">
+                <svg class="price-card__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Приоритетная поддержка 24/7
+              </li>
+            </ul>
+            <a href="#form" class="btn btn--primary" style="width:100%">Заказать</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section__intro fade-in-up">
+          <h2 class="section-title">Часто задаваемые вопросы</h2>
+        </div>
+        <div class="faq__list fade-in-up">
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>Сколько времени занимает очистка?</span>
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p class="faq__answer-text">В среднем 24 часа. Сложные случаи могут занять до 3 дней. Бесплатная диагностика занимает 15 минут.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>Даёте ли гарантию на работу?</span>
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p class="faq__answer-text">Да, мы даём гарантию 90 дней на все работы по очистке. Если вирус вернётся — удалим бесплатно.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>Работаете ли с юрлицами?</span>
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p class="faq__answer-text">Да, заключаем договор, предоставляем все закрывающие документы (счёт, акт, счёт-фактуру с НДС). Работаем по безналичному расчёту.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>Не навредите ли моему сайту?</span>
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p class="faq__answer-text">Перед работой всегда делаем резервную копию. Все изменения согласовываем. Работаем аккуратно, используя многолетний опыт.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>Какие CMS вы чистите?</span>
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p class="faq__answer-text">WordPress, 1С-Битрикс, Joomla, OpenCart, MODX, Drupal и любые самописные решения. Опыт работы с более чем 500 сайтами.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Form -->
+    <section class="section section--alt" id="form">
+      <div class="container">
+        <div class="cta fade-in-up">
+          <h2 class="cta__title">Оставьте заявку на бесплатную диагностику</h2>
+          <p class="cta__subtitle">Перезвоним за 5 минут, проверим сайт и назовём точную стоимость</p>
+        </div>
+
+        <form class="form js-form" action="https://formspree.io/f/movgnzzk" method="POST">
+          <div class="js-form-fields">
+            <div class="form__group">
+              <label class="form__label" for="name">Ваше имя</label>
+              <input class="form__input" type="text" id="name" name="name" placeholder="Ваше имя">
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="phone">Номер телефона <span style="color:var(--color-danger)">*</span></label>
+              <input class="form__input js-phone-mask" type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+              <p class="form__error">Пожалуйста, введите номер телефона</p>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="url">Адрес сайта</label>
+              <input class="form__input" type="url" id="url" name="url" placeholder="https://ваш-сайт.ру">
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="message">Описание проблемы <span style="color:var(--color-danger)">*</span></label>
+              <textarea class="form__textarea" id="message" name="message" placeholder="Кратко опишите проблему: редиректы, блокировка Google и т.д." required></textarea>
+              <p class="form__error">Пожалуйста, опишите проблему</p>
+            </div>
+
+            <div class="form__checkbox-group">
+              <input class="form__checkbox" type="checkbox" id="privacy" name="privacy" required>
+              <label class="form__checkbox-label" for="privacy">Я согласен на <a href="privacy.html" target="_blank">обработку персональных данных</a> <span style="color:var(--color-danger)">*</span></label>
+            </div>
+
+            <button class="form__submit btn btn--primary btn--large js-form-submit" type="submit">
+              <span class="btn__text">Отправить заявку на диагностику</span>
+              <span class="form__spinner"></span>
+            </button>
+          </div>
+
+          <div class="form__success js-form-success">
+            <svg class="form__success-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <h3 class="form__success-title">Заявка успешно отправлена!</h3>
+            <p class="form__success-text">Наш специалист перезвонит вам в течение 15 минут.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <svg class="footer__logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 3L4 11v8c0 8.2 6.2 15.8 14 17 7.8-1.2 14-8.8 14-17v-8L18 3z" fill="#10B981"/>
+              <text x="18" y="22" text-anchor="middle" font-size="16" font-weight="bold" fill="white" font-family="sans-serif">S</text>
+            </svg>
+            <span class="footer__logo-text">SiteClean</span>
+          </div>
+          <p class="footer__slogan">SiteClean — чистый код, чистая репутация, чистый бизнес</p>
+          <div class="footer__social">
+            <a href="https://t.me/siteclean" class="footer__social-link" aria-label="Telegram" target="_blank" rel="noopener noreferrer">
+              <svg class="footer__social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.127.087.654.087.654s.275 2.97-.3 5.344c-.148.626-.44 1.141-.806 1.456-.402.345-1.073.78-1.86.402-.793-.38-2.505-1.447-3.246-2.185-.016-.016-.387-.387-.169-.763.19-.33.84-.806 1.256-1.153.832-.694 1.599-1.529.659-2.554-.023-.025-.556-.628-1.637-.431-.36.066-.66.134-.933.205-.26.07-.52.139-.748.103-.32-.05-.612-.23-.848-.425-.683-.563-.42-.876.25-1.287.405-.25 1.319-.557 2.39-.68.63-.073 2.154-.17 3.4.181.257.072.501.17.687.347.167.16.25.36.268.57-.022.15.003.26.003.26z"/></svg>
+            </a>
+            <a href="https://wa.me/79952376995" class="footer__social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+              <svg class="footer__social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Разделы</h4>
+          <ul class="footer__links">
+            <li><a href="services.html" class="footer__link">Услуги</a></li>
+            <li><a href="prices.html" class="footer__link">Цены</a></li>
+            <li><a href="cases.html" class="footer__link">Кейсы</a></li>
+            <li><a href="blog.html" class="footer__link">Блог</a></li>
+            <li><a href="contacts.html" class="footer__link">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Контакты</h4>
+          <div class="footer__contacts">
+            <a href="tel:+79952376995" class="footer__contact-item">
+              <svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +7 (995) 237-69-95
+            </a>
+            <a href="mailto:gidroizmat@gmail.com" class="footer__contact-item">
+              <svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              gidroizmat@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2010-2026 SiteClean. Все права защищены. <a href="privacy.html" class="footer__link">Политика конфиденциальности</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="floating-phone js-floating-phone" aria-label="Связаться с нами">
+    <svg class="floating-phone__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
